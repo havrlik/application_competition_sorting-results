@@ -1,0 +1,130 @@
+RunnersLists-export
+Date, time: 2018-06-22 11:35:26
+
+
+L0
+L0 Info
+ID;Info;Priorita poøadí
+0;Název této soutìže: mùj závod;1
+1;Další info: místo konání... závody, kategorie, dìtské závody;2
+2;Nároèná trasa v èlenitém terénu plná kamení, koøenù a dìr. Samé prudké kopce.;3
+
+
+L1
+L1 Závody
+ID;Název závodu;Info;Priorita poøadí;Skupina spoleèných startovních èísel;Poznámka #1;Poznámka #2
+1;m7s;Muži, 7 km, senioøi;1;7sen;;
+2;f7s;Ženy, 7 km, senioøi;2;7sen;;
+3;m2j;Muži, 2 km, junioøi;3;;;
+4;f1j;Ženy, 1 km, junioøi;6;;;
+5;m1j;Muži, 1 km, junioøi;5;;;
+6;f2j;Ženy, 2 km, junioøi;4;;;
+
+
+L2
+L2 Kategorie
+ID;Název kategorie;Info;Priorita poøadí;Poznámka #1;Poznámka #2
+0;m39;Muži 18 - 39;1;;
+1;m49;Muži 40 - 49;2;;
+2;f34;Ženy 18 - 34;11;;
+4;mf17;Muži nebo ženy 15 - 17;21;;
+5;mf14;Muži nebo ženy 12 - 14;31;;
+6;f44;Ženy 35 - 44;12;;
+
+
+L3
+L3 Skupiny závod-kategorie
+ID;L1 ID závodu;L1 Název závodu;L2 ID kategorie;L2 Název kategorie;Název skupiny;Info;Poznámka #1;Poznámka #2
+0;1;m7s;0;m39;m7s-m39;7 km, muži 18 - 39;;
+1;1;m7s;1;m49;m7s-m49;7 km, muži 40 - 49;;
+2;2;f7s;2;f34;f7s-f34;7 km, ženy 18 - 34;;
+3;2;f7s;6;f44;f7s-f44;7 km, ženy 35 - 44;;
+4;3;m2j;4;mf17;m2j-mf17;2 km, muži 15 - 17;;
+5;5;m1j;5;mf14;m1j-mf14;1 km, muži 12 - 14;;
+6;4;f1j;5;mf14;f1j-mf14;1 km, ženy 12 - 14;;
+7;6;f2j;4;mf17;f2j-mf17;2 km, ženy 15 - 17;;
+
+
+L4
+L4 Spoleèná startovní èísla
+ID;-
+
+
+L5
+L5 Úèastníci
+ID;Pøíjmení;Jméno;Klub / team / obec / skupina;Pohlaví;Rok narození;ID skupiny (bude pøepsáno do L6);Název skupiny (bude pøepsáno do L6);Startovní èíslo (bude pøepsáno do L6);Poznámka #1;Poznámka #2
+0;Pøemysl;Pøemy;aaa;M;1990;;;;;
+1;Tomaš;Tom;wsad;M;1991;;;;;
+2;Jan;Honza;abc;M;1992;;;;;
+3;Petøík;Petr;acc;M;1975;;;;;
+4;Michálek;Michal;gg;M;1976;;;;;
+5;Vladìnová;Vladìna;hh;F;1990;;;;;
+6;Helenová;Helena;jj;F;1991;;;;;
+7;Danielová;Daniela;kk;F;1980;;;;;
+8;Andreová;Andrea;kk;F;1981;;;;;
+9;Martínek;Martin;jj;M;1990;;;;;
+10;František;Franta;llll;M;1990;;;;;
+11;Milánek;Milan;io;M;1988;;;;;
+12;Václavec;Václav;io;M;1990;;;;;
+13;Miroslav;Míra;uu;M;2003;;;;;
+14;Marek;Mára;io;M;2003;;;;;
+15;Jakub;Kuba;tt;M;2004;;;;;
+16;Ivánek;Ivan;tt;M;2006;;;;;
+17;Petøina;Petr;ee;M;2005;;;;;
+18;Radková;Radka;ww;F;1990;;;;;
+19;Gábová;Gabriela;io;F;2004;;;;;
+20;Michaelová;Míša;io;F;2003;;;;;
+
+
+L6
+L6 Pøiøazení úèastník - skupina
+ID;L5 ID úèastníka;L3 ID skupiny;L3 Název skupiny;Startovní èíslo
+0;0;0;m7s-m39;1
+1;1;0;m7s-m39;2
+2;2;0;m7s-m39;3
+3;9;0;m7s-m39;4
+4;5;2;f7s-f34;5
+5;6;2;f7s-f34;6
+6;3;1;m7s-m49;7
+7;4;1;m7s-m49;8
+8;13;4;m2j-mf17;1
+9;14;4;m2j-mf17;2
+10;15;4;m2j-mf17;3
+11;7;3;f7s-f44;9
+12;8;3;f7s-f44;10
+13;16;5;m1j-mf14;1
+14;18;2;f7s-f34;11
+15;12;0;m7s-m39;12
+16;17;5;m1j-mf14;2
+17;11;0;m7s-m39;13
+18;10;0;m7s-m39;14
+19;19;7;f2j-mf17;2
+20;20;7;f2j-mf17;1
+
+
+L7
+L7 Všechny výsledky
+ID;L6 ID pøiøazení úèastníka a skupiny;L1 ID závodu (bude zjištìno L0 ID);L1 Název závodu (bude zjištìno L0 ID);L6 Startovní èíslo (bude zjištìno L6 ID);Èas;Korekce;Zaøadit;Poznámka #1;Poznámka #2;Umístìní v kategorii;Umístìní v závodì
+0;6;1;m7s;7;000:00:20.000;4;1;;;2;4
+1;7;1;m7s;8;000:00:20.000;3;1;;;1;2
+2;17;1;m7s;13;000:00:20.000;2;1;;;1;1
+3;18;1;m7s;14;000:00:20.200;3;1;;;3;5
+4;3;1;m7s;4;000:00:20.000;3;0;;;100001;100001
+5;0;1;m7s;1;000:00:20.000;4;1;;;2;3
+6;15;1;m7s;12;000:00:21.000;2;1;;;4;6
+7;1;1;m7s;2;000:00:21.000;4;1;;;5;7
+8;2;1;m7s;3;000:00:21.000;3;0;;;100002;100002
+9;11;2;f7s;9;000:00:21.000;2;1;;;1;2
+10;12;2;f7s;10;000:00:21.000;4;1;;;2;4
+11;14;2;f7s;11;000:00:21.000;2;1;;;1;1
+12;4;2;f7s;5;000:00:21.000;3;0;;;100001;100001
+13;5;2;f7s;6;000:00:21.000;4;1;;;2;3
+14;9;3;m2j;2;000:00:30.000;2;1;;;1;1
+15;8;3;m2j;1;000:00:30.000;6;0;;;100001;100001
+16;10;3;m2j;3;000:00:30.000;6;1;;;2;2
+17;16;5;m1j;2;000:00:30.000;2;1;;;1;1
+18;13;5;m1j;1;000:00:30.000;4;1;;;2;2
+19;19;6;f2j;2;000:00:30.000;3;1;;;1;1
+20;20;6;f2j;1;000:00:30.000;7;1;;;2;2
+
+
