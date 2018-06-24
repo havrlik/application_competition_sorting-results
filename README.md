@@ -7,6 +7,7 @@ User's language is czech. For right understanding to this code and application p
 Created by Havrlik, 2018. Code need this library: 'PyQt5'.
 
 
+
 So in description I will continue in czech language:
 
 Popis aplikace, obecné použití:
