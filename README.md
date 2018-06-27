@@ -4,7 +4,7 @@ Application ability to sort participants and their results in race or competitio
 Application, where you can insert races and categories, and participans with race numbers. After inserting results it automatically sort in each category.
 User's language is czech. For right understanding to this code and application performance rather use also czech language, because user labels are actually only in czech language.
 
-Created by Havrlik, 2018. Code need this library: 'PyQt5'.
+Created by Havrlik, 2018. Code need this library: 'PyQt5'. Tested on Windows.
 
 -------- -------- -------- --------
 
